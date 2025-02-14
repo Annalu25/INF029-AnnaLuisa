@@ -633,4 +633,6 @@ void finalizar() {
       principal[i].estruturaAuxiliar = NULL;
     }
   }
+  free(estrutura);
+  estrutura = NULL;
 }
