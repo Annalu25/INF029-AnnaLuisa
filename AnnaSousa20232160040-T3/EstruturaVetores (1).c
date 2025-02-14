@@ -599,8 +599,6 @@ void inicializar() {
       if (fp == NULL) {
           return;
       }
-  }else{
-      printf("Arquivo encontrado.\n");
   }
   fclose(fp); 
 
